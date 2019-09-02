@@ -1,0 +1,27 @@
+input[type=button]{
+    color: aliceblue;
+}
+
+input{
+    color: aqua;
+}
+
+#btn{
+    background-color: rgb(65, 65, 163);
+    border-radius: 2em;
+}
+
+.btn.red{
+    background-color: rgb(161, 46, 46);
+    border: 0;
+}
+
+.btn{
+    padding: 1em 2em;
+    border: 3em solid;
+}
+
+div input[type=button]{
+    margin: 2em;
+}
+

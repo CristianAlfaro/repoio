@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+}
+
+.boxPass{
+    background-color: beige;
+    border: 0;
+    padding: 0.5em;
+    margin: 0.3em;
+    color: brown;
+}
+
+.buttonClear{
+    border: 0;
+    border-radius: 1em;
+    padding: 0.5em 1.5em;
+    margin-top: 2em;
+    color: aliceblue;
+}
+
+.buttonClear.blue{
+    background-color: rgb(74, 74, 240);
+}
+
+.buttonClear.red{
+    background-color: rgb(204, 47, 47);
+}
+
+form{
+    width: 30%;
+    margin: auto;
+}
+
+fieldset{
+    padding: 2em;
+    background-color: rgba(119, 119, 119, 0.548);
+    border: 0;  
+    border-radius: 2em;
+    text-align: center;
+}
