@@ -1,0 +1,7 @@
+/**
+ * Función que comprueba si un numero es multiple de 10
+ */
+@function isMultiple10($i)
+{
+    @return ($i % 10 == 0);   // Si el resto es 0, lo es.
+}

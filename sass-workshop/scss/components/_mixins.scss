@@ -1,0 +1,14 @@
+@mixin button($color){
+  display: inline-block;
+  text-decoration: none;
+  padding: 2em;
+  background: $color;
+
+  &:hover{
+    background: red;
+  }
+}
+
+.button{
+  @include button($success);
+}

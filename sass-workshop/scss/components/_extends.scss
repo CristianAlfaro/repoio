@@ -1,0 +1,10 @@
+.item{
+    width: 100px;
+    height: 100px;
+}
+
+.img{
+  @extend .item;
+  object-fit: cover;
+
+}

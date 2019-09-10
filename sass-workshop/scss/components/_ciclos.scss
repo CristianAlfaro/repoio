@@ -1,0 +1,10 @@
+@for $i from 10 through 100
+{
+  @if(isMultiple10($i))
+  {
+    .spacer-#{$i}
+    {
+      height: 0px + $i;
+    }
+  }
+}

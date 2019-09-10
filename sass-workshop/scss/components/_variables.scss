@@ -1,0 +1,32 @@
+
+$number: 1;
+$size: 10px;
+
+$string: 'Soy una string';
+
+$list: 1px solid #000000;
+
+$boolean: true;
+
+$map: (
+  primary: red,
+  secondary: green,
+  tertiary: blue
+);
+
+$success: #046c08;
+$light: #f8f9fa;
+
+.body{
+  @debug $success;
+}
+
+.text-success
+{
+  color: $success;
+}
+
+.bg-success
+{
+  background: $success;
+}
