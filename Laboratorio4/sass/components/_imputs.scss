@@ -1,0 +1,20 @@
+@import "variables";
+@import "mixin";
+
+
+
+
+.boxPass{
+    @include box(1000px);
+    border-color: $imputBase;
+}
+
+.buttonClear{
+    @include box(700px);
+    border-color: $buttonBase;
+
+    &:hover{
+        @include boxHover;
+        border-color: $buttonResalte;
+    }
+}

@@ -1,0 +1,44 @@
+@import "variables";
+@import "mixin";
+
+
+html,body, .container{
+    @include fullScreen;
+}
+
+body{
+    background: url(http://k38.kn3.net/taringa/B/4/6/7/0/2/FachaCosmicaIII/CF8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $texto;
+    font-family: $fuente;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divForm{
+    width: 30%;    
+    background-color: rgba(36, 36, 37, 0.623);
+    padding: ($margin * 4);
+    border-radius: ($margin * 4);
+    text-align: center;
+    transition: $transicion * 5;
+
+    &:hover{
+        background-color: rgba(26, 26, 26, 0.897);
+        transition: 1s;
+    }
+
+    fieldset{
+        border: 0ch;
+    }
+
+
+    @media screen and (max-width: 1000px){
+        background: rgb(0, 0, 0);
+    }
+}
